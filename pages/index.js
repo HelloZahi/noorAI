@@ -218,6 +218,21 @@ export default function Home() {
           </div>
         )}
       </div>
+      <footer className="absolute bottom-4 w-full text-center text-xs text-gray-500 mt-10">
+      <p>May Allah ﷻ guide us, forgive us, and accept our duas. 🤲</p>
+      <p className="mt-1">
+        © {new Date().getFullYear()} NoorAI. All rights reserved.
+      </p>
+      <p className="mt-1">
+        Built by <strong>Zahi</strong>, Founder at{' '}
+        <a href="https://halixlab.com" className="underline hover:text-gray-700" target="_blank" rel="noopener noreferrer">
+          HalixLab
+        </a>
+      </p>
+    </footer>
     </div>
+    
+    
   );
 }
+
